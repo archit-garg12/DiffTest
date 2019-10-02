@@ -1,13 +1,15 @@
 import json
 import pymongo
 import inspect
+import datetime
 
 
 class MongoCollection(pymongo.collection.Collection):
     # override methods
     def insert_one(self, document, bypass_document_validation=False, session=None):
-        super(MongoCollection, self).insert_one(document, bypass_document_validation=False, session=None)
-        print('sup')
+        document['_time'] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        super(MongoCollection, self).insert_one(document)
+
 
 
 # class MongoDatabase(pymongo.database.Database):
@@ -21,7 +23,7 @@ def set_collection(database_name, collection_name):
 #
 pymongo.database.Database.__getitem__ = set_collection
 # pymongo.collection.Collection = MongoCollection
-x = pymongo.MongoClient('localhost')['cucm_proxy_db']['listHuntList']
+x = pymongo.MongoClient('localhost')['cucm_proxy_db']
 y = MongoCollection(x, 'listHuntList')
 y.insert_one({'sup': 'sup2'})
 for val in y.find():
