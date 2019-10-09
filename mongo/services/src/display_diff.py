@@ -21,8 +21,7 @@ def run_all_collections():
 
     for collection in db.list_collection_names():
         print(collection)
-        s = DIRECTORY + collection + '.bson'
-        read_bson_data(s)
+        print(read_bson_data(collection))
 
 
 def _does_id_exist_in_dump(bson_file, object_id):
@@ -98,6 +97,6 @@ def difference_in_str(collection):
 difference_in_str(db['listHuntlist'].find())
 difference_in_files()
 removed_files(DIRECTORY + 'listHuntlist.bson')
-#run_all_collections()
+run_all_collections()
 
 #deleted 2019-10-06 22:47:02 ObjectId("5d9ad1567c48eeecc12052fd")
