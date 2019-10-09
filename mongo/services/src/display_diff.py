@@ -1,6 +1,15 @@
+"""
+Iterates through snapshot json and compares to current db and shows new and removed files
+Compares onld snapshot with onld database to check for differences in values for various keys
+
+
+
+
+"""
+
 import pymongo
 import bson
-from extract_data import read_bson_data
+from bson_extract import read_bson_data
 
 DIRECTORY = '/users/dominicong/desktop/difftest/mongo/datalayer/cucm_proxy_db/'
 

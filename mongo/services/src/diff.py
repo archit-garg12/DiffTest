@@ -1,5 +1,21 @@
 # Mongodata class
 
+"""
+Current fucntionality:
+Initializes by data type(mongo or bson)
+
+Expected functionality:
+Creates a class to represent mongo data from JSON file
+
+Issues:
+
+
+
+
+
+
+"""
+
 from mongo_extract import pull_data_by_collection
 from bson_extract import read_bson_data
 
