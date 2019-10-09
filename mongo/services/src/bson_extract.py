@@ -4,7 +4,7 @@
 
 import bson
 
-DIRECTORY = '/Users/krishnatejaavvari/PycharmProjects/DiffTest/mongo/datalayer/dump/cucm_proxy_db/'
+DIRECTORY = '../../../dump/cucm_proxy_db/'
 
 
 def read_bson_data(collection_name):
