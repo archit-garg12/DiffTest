@@ -1,7 +1,7 @@
 import pymongo
 import json
 
-
-
 x = pymongo.MongoClient('localhost')['cucm_proxy_db']['listHuntList']
-x.insert_one({'sup': 'sup2'})
+
+for i in range(1000):
+    x.insert_one({'sup': i})
