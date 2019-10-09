@@ -11,7 +11,7 @@ import pymongo
 import bson
 from bson_extract import read_bson_data
 
-DIRECTORY = '/users/dominicong/desktop/difftest/mongo/datalayer/cucm_proxy_db/'
+DIRECTORY = '../../../dump/cucm_proxy_db/'
 
 client = pymongo.MongoClient('localhost')
 db = client['cucm_proxy_db']
