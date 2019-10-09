@@ -12,7 +12,7 @@ def read_bson_data(collection_name):
         return {document['_id'] : document for document in data}
 
 
-print(read_bson_data('listHuntList'))
+# print(read_bson_data('listHuntList'))
 
 
 # x = read_bson_data('/Users/krishnatejaavvari/PycharmProjects/DiffTest/mongo/datalayer/dump/cucm_proxy_db/listHuntList.bson')
