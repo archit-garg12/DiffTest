@@ -1,3 +1,5 @@
+# main function that runs diff
+
 import os
 from pymongo import *
 from extract_data import read_bson_data

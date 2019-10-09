@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e02f1286-33d4-43cc-a9f6-bb58dbf33ec4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DiffTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DiffTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/services/src/extract_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/services/src/fill_ass.py" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/services/src/fill_ass.py" afterDir="false" />
-    </list>
+    <list default="true" id="e02f1286-33d4-43cc-a9f6-bb58dbf33ec4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

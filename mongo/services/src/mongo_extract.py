@@ -1,3 +1,5 @@
+# return mongo collection data
+
 from pymongo import *
 from bson import json_util
 

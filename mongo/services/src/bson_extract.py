@@ -1,3 +1,5 @@
+# Convert bson to json
+
 import bson
 
 DIRECTORY = '/Users/krishnatejaavvari/PycharmProjects/DiffTest/mongo/datalayer/dump/cucm_proxy_db/'

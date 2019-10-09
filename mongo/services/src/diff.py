@@ -1,3 +1,5 @@
+# Mongodata class
+
 from mongo_extract import pull_data_by_collection
 from bson_extract import read_bson_data
 
@@ -14,6 +16,7 @@ class MongoData():
 
     def id_list(self):
         return [document for document in self._data]
+
 
 x = MongoData('listHuntList')
 print(x.data())
